@@ -2,7 +2,7 @@
 This code simulates the imitation dynamics [1,2] 
 using a kind of Monte Carlo method [3]  
 for any 4-strategy symmetrized bimatrix game, 
-as described by Hofbauer et al. [4],
+as described by Gaunersdorfer et al. [4],
 */
 #include <stdio.h>  
 #include <stdlib.h>  
