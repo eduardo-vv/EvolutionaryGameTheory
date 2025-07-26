@@ -92,7 +92,7 @@ int main(){
     
     //simulation loop
     for(int s = 0; s < S; s++){
-        printf("%d\n",s);
+        printf("%d/%d\n", s, S);
 
         int pos = 0;
         int aux = 0;
