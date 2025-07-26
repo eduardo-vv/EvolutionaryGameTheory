@@ -8,7 +8,7 @@ In evolutionary game theory, the replicator equation (RE) is a set of equations 
 $$	\dot x_i = x_i\left(\sum_{j}m_{ij} x_j-\sum_{i}\sum_{j}{x_i m_{ij} x_j}\right), \quad i = 1,..., N$$
 
 where $\sum_i x_i = 1$. Or, more succintly, in vector form:
-$$\dot{x}_i = x_i\left((M\bm{x})_i-\bm{x}^TM\bm{x}\right).$$
+$$\dot{x}_i = x_i\left((M\vec{x})_i-\vec{x}^TM\vec{x}\right).$$
 This equation holds when we assume an infinite population.
 
 Furthermore, it's been shown that the imitation dynamics associated with the same game in a finite population approaches exactly this equation as $N\to\infty$ [2,3].
