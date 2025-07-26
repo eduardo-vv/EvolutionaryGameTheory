@@ -22,7 +22,7 @@ Furthermore, it's been shown that the imitation dynamics associated with the sam
 
 The Python code in this repository solves the replicator equations, while the C code uses a Monte Carlo method to simulate the imitation dynamics [4]. Currently, I've only addressed the four-strategy case, but theoretically, the code could be expanded trivially. More specifically, the code is written to facilitate the symmetrization of an asymmetric bimatrix game, as described by Gaunersdorfer _et al_ [5]. However, the values can be changed directly in the matrix M, and the code will work for any four-strategy game. The image below shows the comparison between the two approaches.
 
-![Comparison between the RE solution and the Monte Carlo simulation](comparison.png  "Comparisson" )
+![Comparison between the RE solution and the Monte Carlo simulation](comparison_correct.png  "Comparisson" )
 
 **Important:** Don't trust this code blindly, as I can't guarantee it will work in every scenario. Use it at your own risk.
 
