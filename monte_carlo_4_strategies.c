@@ -60,7 +60,6 @@ double fx, fy, avgfx, avgfy, dwMax, p;
 clock_t start, end;
 
 unsigned int rand_unif_int(unsigned int);
-int rand_int(int);
 
 int main(){
     start = clock();
